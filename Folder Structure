@@ -1,0 +1,20 @@
+mediroza-hospital-security-assessment/
+│
+├── README.md                                  <-- Main portfolio page
+├── Security_Assessment_Report_Mediroza.pdf    <-- Complete PDF Report
+├── Security_Assessment_Report_Mediroza.html   <-- Web Report
+│
+├── evidence_screenshots/                      <-- Tamam Attack Screenshots
+│   ├── 01_recon_whois_whatweb.png
+│   ├── 02_nikto_wafw00f_scan.png
+│   ├── 03_robots_txt_disclose.png
+│   ├── 04_directory_indexing_old.png
+│   ├── 05_db_backup_sql_leak.png
+│   ├── 06_sqli_patient_portal_bypass.png
+│   ├── 07_directory_indexing_patient.png
+│   ├── 08_pdf_cracking_john_m2.png
+│   └── 09_decrypted_patient_report.png
+│
+└── scripts/                                   <-- Automation scripts (Optional)
+    ├── generate_mediroza_pdf.py
+    └── create_evidence_screenshots.py
