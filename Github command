@@ -1,0 +1,20 @@
+# 1. Downloads wale project folder me jayein
+cd C:\Users\PC\Downloads\Mediroza_Security_Project
+
+# 2. Git initialize karein
+git init
+
+# 3. Saari files add karein
+git add .
+
+# 4. Commit banayein
+git commit -m "Add Mediroza Hospital Security Assessment Report and Evidence"
+
+# 5. Branch main set karein
+git branch -M main
+
+# 6. Apna GitHub Repo Link connect karein (XYZ ki jagah apna repo link dalein)
+git remote add origin https://github.com/YOUR_USERNAME/mediroza-hospital-security-assessment.git
+
+# 7. Push kar dein
+git push -u origin main
